@@ -112,5 +112,103 @@ public class Main {
         // System.out.println("we are simple");
         // }
 
+        //////////////////////////////////////////  Days Of A Week
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // switch (n) {
+        // case 1:
+        // System.out.println("Monday");
+        // break;
+        // case 2:
+        // System.out.println("Tuesday");
+        // break;
+        // case 3:
+        // System.out.println("Wednesday");
+        // break;
+        // case 4:
+        // System.out.println("Thursday");
+        // break;
+        // case 5:
+        // System.out.println("Friday");
+        // break;
+        // case 6:
+        // System.out.println("Saturday");
+        // break;
+        // case 7:
+        // System.out.println("Sunday");
+        // break;
+        // default:
+        // System.out.println("Invalid");
+        // }
+
+        // sc.close();
+
+        // Number of Days
+        // Scanner sc = new Scanner(System.in);
+        // int M = sc.nextInt();
+        // if (M <= 7) {
+        // if (M == 2) {
+        // System.out.println(28);
+        // } else {
+        // if (M % 2 == 1) {
+        // System.out.println(31);
+        // } else {
+        // System.out.println(30);
+        // }
+        // }
+        // } else {
+        // if (M % 2 == 0) {
+        // System.out.println(31);
+        // } else {
+        // System.out.println(30);
+        // }
+        // }
+
+        // Which Case
+        // Scanner sc = new Scanner(System.in);
+
+        // char ch = sc.next().charAt(0);
+
+        // if (ch >= 'A' && ch <= 'Z') {
+        // System.out.println(1);
+        // } else if (ch >= 'a' && ch <= 'z') {
+        // System.out.println(0);
+        // } else {
+        // System.out.println(-1);
+        // }
+
+        // Largest Number
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = sc.nextInt();
+
+        // System.out.print(Math.max(a, Math.max(b, c)));
+
+        // Leap Year
+        // if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        // System.out.println(1);
+        // } else {
+        // System.out.println(0);
+        // }
+
+        // Which Angled Triangle
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = sc.nextInt();
+
+        // int maxi = Math.max(a, Math.max(b,c));
+        // int maxii = 2*(maxi*maxi);
+        // int sum = (a*a) + (b*b) + (c*c);
+
+        // if(maxii<sum){
+        // System.out.println(1);
+        // }else if(maxii>sum ){
+        // System.out.println(3);
+        // }else if(maxii == sum){
+        // System.out.println(2);
+        // }
+
     }
 }
