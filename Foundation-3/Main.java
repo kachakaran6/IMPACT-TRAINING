@@ -60,7 +60,57 @@ public class Main {
 
         // System.out.printf("%.6f\n", f);
 
-        //
+        // Conditional Problem 5
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // if(n%6==0){
+        // System.out.println("Divisible");
+        // }else{
+        // System.out.println("Not divisible");
+        // }
+
+        // Conditional Problem 1
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // if(n==28){
+        // System.out.println("i am young");
+        // }else{
+        // System.out.println("i am not young");
+        // }
+
+        // Conditional Problem 2
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // if(n>=30){
+        // System.out.println("more important");
+        // }else{
+        // System.out.println("less important");
+        // }
+
+        // Conditional Problem 3
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // if(n>1){
+        // System.out.println("You entered more");
+        // }else{
+        // System.out.println("You entered less");
+        // }
+
+        // Conditional Problem 6
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+
+        // if(a%2==1 && b%2==1){
+        // System.out.println("we are odd");
+        // }else{
+        // System.out.println("we are simple");
+        // }
 
     }
 }
