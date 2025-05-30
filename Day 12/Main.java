@@ -36,14 +36,13 @@ public class Main {
         // }
         // Character Pattern
 
-        // for (int i = 1; i <= n; i++) {
-        // char ch = (char) ('A' + i - 1);
-        // for (int k = 1; k <= i; k++) {
-        // System.out.print(ch);
-        // }
-
-        // System.out.println();
-        // }
+        for (int i = 1; i <= n; i++) {
+            char ch = (char) ('A' + i - 1);
+            for (int k = 1; k <= i; k++) {
+                System.out.print(ch);
+            }
+            System.out.println();
+        }
 
         sc.close();
     }
