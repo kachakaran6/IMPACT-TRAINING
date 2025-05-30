@@ -8,7 +8,7 @@ public class Variable2 {
         // System.out.println(var);
         Scanner sc = new Scanner(System.in);
         int y = 2004;
-        if (y%4 == 0) && y%100 != 0) {
+        if (y%4 == 0) && (y%100 != 0) {
             System.out.println(1);
 
         } else if (year%400 == 0 || (year)){

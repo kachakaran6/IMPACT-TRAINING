@@ -1,88 +1,92 @@
-/////////////////////////////////////////////////////////////////////////////////////////////// Hello World
+public class Main {
+    public static void main(String[] args) {
 
-// public static void main(String[] args) throws Throwable {
-//
-// System.out.print("Hello World");
-//
+        /////////////////////////////////////////////////////////////////////////////////////////////// Hello World
 
-///////////////////////////////////////////////////////////////////////////////////////////// Star Pattern
+        // public static void main(String[] args) throws Throwable {
+        //
+        // System.out.print("Hello World");
+        //
 
-// int n = 3;
-// for(int i =1; i<=n; i++){
+        ///////////////////////////////////////////////////////////////////////////////////////////// Star Pattern
 
-// for(int j=1; j<=2*i-1; j++){
-// System.out.print("*");
-// }
-// System.out.println("");
-// }
+        // int n = 3;
+        // for(int i =1; i<=n; i++){
 
-// ///////////////////////////////////////////////////////////////////////////////////
-// Print Mirror Z
+        // for(int j=1; j<=2*i-1; j++){
+        // System.out.print("*");
+        // }
+        // System.out.println("");
+        // }
 
-// public class Main {
-// public static void main(String[] args) {
-// int n = 6;
+        // ///////////////////////////////////////////////////////////////////////////////////
+        // Print Mirror Z
 
-// for (int i = 0; i < n; i++) {
-// if (i == 0 || i == n - 1) {
+        // int n = 6;
 
-// for (int j = 0; j < n; j++) {
-// System.out.print("*");
-// }
-// } else {
+        // for (int i = 0; i < n; i++) {
+        // if (i == 0 || i == n - 1) {
 
-// for (int j = 0; j < i; j++) {
-// System.out.print(" ");
-// }
-// System.out.print("*");
-// }
-// System.out.println();
-// }
-// }
-// }
+        // for (int j = 0; j < n; j++) {
+        // System.out.print("*");
+        // }
+        // } else {
 
-// ////////////////////////////////////////////////////////////////////////////
-// Variable
-// Practice Question 2
+        // for (int j = 0; j < i; j++) {
+        // System.out.print(" ");
+        // }
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+        // }
+        // }
 
-// float var = 10.45f;
-// var = 20.55f;
+        // ////////////////////////////////////////////////////////////////////////////
+        // Variable
+        // Practice Question 2
 
-// System.out.print(var);
+        // float var = 10.45f;
+        // var = 20.55f;
 
-// /////////////////////////////////////////////////////////// Variable Practice
-// Question 3
+        // System.out.print(var);
 
-// int a =10;
-// int b = 20;
-// int c = a + b;
+        // /////////////////////////////////////////////////////////// Variable Practice
+        // Question 3
 
-// System.out.print(c);
+        // int a =10;
+        // int b = 20;
+        // int c = a + b;
 
-// ////////////////////////////////////////////////////////////// Variable
-// Practice Question 4
+        // System.out.print(c);
 
-// int a = 1042;
-// int b = 7;
+        // ////////////////////////////////////////////////////////////// Variable
+        // Practice Question 4
 
-// int quo = a/b;
-// int rem = a%b;
+        // int a = 1042;
+        // int b = 7;
 
-// System.out.println(quo + " " + rem);
+        // int quo = a/b;
+        // int rem = a%b;
 
-//////////////////////////////////////////////////////////////////////////// Varibal8
+        // System.out.println(quo + " " + rem);
 
-// for(int i=1; i<=10; i++){
-// System.out.println("8 x " + i + " = " + 8*i );
-// }
+        //////////////////////////////////////////////////////////////////////////// Varibal8
 
-// ///////////////////////////////////////////////////////////////////////
+        // for (int i = 1; i <= 10; i++) {
+        // System.out.println("8 x " + i + " = " + 8 * i);
+        // }
 
-// double rating1 = Math.floor(10.5f);
-// double rating2 = Math.floor(12.5f);
-// double rating3 = Math.floor(12.5f);
+        // ///////////////////////////////////////////////////////////////////////
 
-// double average = (rating1 + rating2 + rating3) / 3;
-// int finalResult = (int) Math.floor(average);
+        // double rating1 = Math.floor(10.5f);
+        // double rating2 = Math.floor(12.5f);
+        // double rating3 = Math.floor(12.5f);
 
-// System.out.println(finalResult);
+        // double average = (rating1 + rating2 + rating3) / 3;
+        // int finalResult = (int) Math.floor(average);
+
+        // System.out.println(finalResult);
+
+    }
+}

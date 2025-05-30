@@ -42,7 +42,7 @@ public class Main {
 
         // System.out.println("Simple interest = " + simpleInterest);
 
-        // Celsius to Fahrenheit
+        // 5 Celsius to Fahrenheit
 
         // Scanner sc = new Scanner(System.in);
         // int tempInCelsius = sc.nextInt();
@@ -51,7 +51,7 @@ public class Main {
 
         // System.out.println(f);
 
-        // Celsius to Fahrenheit 2
+        // 6 Celsius to Fahrenheit 2
 
         // Scanner sc = new Scanner(System.in);
         // int c = sc.nextInt();
@@ -60,7 +60,7 @@ public class Main {
 
         // System.out.printf("%.6f\n", f);
 
-        // Conditional Problem 5
+        // 7 Conditional Problem 5
 
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -71,7 +71,7 @@ public class Main {
         // System.out.println("Not divisible");
         // }
 
-        // Conditional Problem 1
+        // 8 Conditional Problem 1
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
 
@@ -81,7 +81,7 @@ public class Main {
         // System.out.println("i am not young");
         // }
 
-        // Conditional Problem 2
+        // 9 Conditional Problem 2
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
 
@@ -91,7 +91,7 @@ public class Main {
         // System.out.println("less important");
         // }
 
-        // Conditional Problem 3
+        // 10 Conditional Problem 3
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
 
@@ -101,7 +101,7 @@ public class Main {
         // System.out.println("You entered less");
         // }
 
-        // Conditional Problem 6
+        // 11 Conditional Problem 6
         // Scanner sc = new Scanner(System.in);
         // int a = sc.nextInt();
         // int b = sc.nextInt();
@@ -112,7 +112,7 @@ public class Main {
         // System.out.println("we are simple");
         // }
 
-        //////////////////////////////////////////  Days Of A Week
+        //////////////////////////////////////////12  Days Of A Week
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
 
@@ -144,7 +144,7 @@ public class Main {
 
         // sc.close();
 
-        // Number of Days
+        // 13 Number of Days
         // Scanner sc = new Scanner(System.in);
         // int M = sc.nextInt();
         // if (M <= 7) {
@@ -165,7 +165,7 @@ public class Main {
         // }
         // }
 
-        // Which Case
+        // 14 Which Case
         // Scanner sc = new Scanner(System.in);
 
         // char ch = sc.next().charAt(0);
@@ -178,7 +178,7 @@ public class Main {
         // System.out.println(-1);
         // }
 
-        // Largest Number
+        // 15 Largest Number
         // Scanner sc = new Scanner(System.in);
         // int a = sc.nextInt();
         // int b = sc.nextInt();
@@ -186,14 +186,14 @@ public class Main {
 
         // System.out.print(Math.max(a, Math.max(b, c)));
 
-        // Leap Year
+        // 16 Leap Year
         // if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
         // System.out.println(1);
         // } else {
         // System.out.println(0);
         // }
 
-        // Which Angled Triangle
+        // 17 Which Angled Triangle
         // int a = sc.nextInt();
         // int b = sc.nextInt();
         // int c = sc.nextInt();
