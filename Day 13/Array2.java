@@ -14,12 +14,12 @@ public class Array2 {
 
     public static int ArrayProblem2(int n, int[] arr) {
 
-        int count = 0;
-        for (int i = 1; i <= n; i++) {
-            if (arr[i] == 35) {
-                count++;
+        for (int i = 0; i < n; i++) {
+            if(Math.max(arr, i)){
+                return i;
             }
         }
-        return count;
+        return ;
+
     }
 }
