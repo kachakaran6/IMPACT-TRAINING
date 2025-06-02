@@ -5,21 +5,24 @@ public class Prime {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        boolean isPrime = true;
-        if (n < 2) {
-            isPrime = false;
-        } else {
-            for (int i = 2; i < n; i++) {
-                if (n % i == 0) {
+        // if (n < 2) {
+        // isPrime = false;
+        // } else {
+        // }
+        for (int k = 2; k <= n; k++) {
+            boolean isPrime = true;
+            for (int i = 2; i < k; i++) {
+                if (k % i == 0) {
                     isPrime = false;
                     break;
                 }
             }
+            if (isPrime) {
+                System.out.println(k);
+            }
         }
-        if (isPrime) {
-            System.out.println(n + " is prime");
-        } else {
-            System.out.println(n + " not prime");
-        }
+
+        // System.out.println(n + " not prime");
+        // }
     }
 }
